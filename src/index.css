@@ -33,7 +33,7 @@ body {
 }
 
 body {
-    @apply overflow-x-hidden font-Poppins bg-white text-dark-06 text-base font-normal relative;
+    @apply overflow-x-hidden font-Poppins bg-[#FAFAFA] text-dark-06 text-base font-normal relative;
 }
 
 p {
@@ -41,5 +41,5 @@ p {
 }
 
 .container {
-    @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px] px-3;
+    @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px] px-3 lg:px-7;
 }
