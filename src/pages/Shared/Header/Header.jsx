@@ -2,7 +2,7 @@ import Logo from '../../../components/Logo/Logo';
 
 const Header = () => {
     return (
-        <div className="container bg-white border-x border-b border-dark-03 py-2.5">
+        <div className="container bg-white border-x border-b border-dark-03 py-2.5 px-3 lg:px-7">
             <div className="flex items-center justify-between">
                 {/* Left Side */}
                 <div className="flex items-center space-x-4 lg:space-x-6">
