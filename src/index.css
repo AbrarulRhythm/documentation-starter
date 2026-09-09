@@ -43,3 +43,8 @@ p {
 .container {
     @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px] px-3 lg:px-7;
 }
+
+/* ==================== - Button - ==================== */
+.button {
+    @apply text-sm text-dark-01 py-2 px-5 rounded-md bg-linear-to-b from-dark-08 to-[#7885A8] hover:cursor-pointer hover:shadow-btn-inner active:scale-95 duration-200;
+}

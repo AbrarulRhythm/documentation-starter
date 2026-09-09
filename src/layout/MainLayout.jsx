@@ -5,9 +5,9 @@ import Footer from '../pages/Shared/Footer/Footer';
 const MainLayout = () => {
     return (
         // Main Wrapper
-        <div className="main-wrtapper container bg-white border-x border-dark-03">
+        <div className="main-wrtapper mt-[71.58px]">
             {/* Header */}
-            <header>
+            <header className="fixed top-0 left-0 right-0">
                 <Header></Header>
             </header>
             {/* Header End */}
