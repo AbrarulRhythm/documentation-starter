@@ -17,11 +17,14 @@ const MainLayout = () => {
             <main className="site-main">
                 <div className="container">
                     <div className="flex flex-wrap">
+                        {/* Side Header */}
                         <div className="w-4/12">
-                            <div className="border border-amber-600 px-3 lg:px-7 hidden lg:block">
+                            <div className="bg-white border-x border-dark-03 overflow-hidden px-3 lg:px-7 hidden lg:block">
                                 <SiderHeader></SiderHeader>
                             </div>
                         </div>
+
+                        {/* Outlet */}
                         <div className="w-full lg:w-8/12">
                             <div className="border border-blue-600 px-3 lg:px-7">
                                 <Outlet></Outlet>
