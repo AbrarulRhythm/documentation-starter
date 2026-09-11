@@ -12,7 +12,18 @@ const SiderHeader = () => {
             </div>
 
             {/* Menu Items */}
-            <MenuItems></MenuItems>
+            <div className="space-y-6">
+                {/* Getting Started */}
+                <MenuItems
+                    icon="fa-solid fa-globe"
+                    mainTitle="Getting Started"
+                    childItems={[
+                        { text: 'Overview', link: '/' },
+                        { text: 'Your First Project', link: '/your-first-project' },
+                        { text: 'CLI & API Keys', link: '/cli-&-api-keys' },
+                    ]}
+                ></MenuItems>
+            </div>
         </div>
     );
 };
